@@ -16,4 +16,4 @@ echo "$APT_REPO_LINE" | tee /etc/apt/sources.list.d/regolith.list
 
 # Install target package
 apt update
-DEBIAN_FRONTEND=noninteractive apt install -y "$TARGET_PACKAGE"
+DEBIAN_FRONTEND=noninteractive apt install -y $TARGET_PACKAGE
